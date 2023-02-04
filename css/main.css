@@ -227,6 +227,9 @@ body {
 .footer__contact-icon--linkedin {
   color: #0077b6;
 }
+.footer__contact-icon--twitter {
+  color: rgb(29, 155, 240);
+}
 
 @media screen and (min-width: 600px) {
   .footer {
