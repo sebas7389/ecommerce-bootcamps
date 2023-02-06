@@ -60,7 +60,7 @@ body{
 }
 .contact-form form button{
     background: #b70e21;
-    color: #000;
+    color:white;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -69,7 +69,7 @@ body{
 .contact-form form button:hover,
 .contact-form form button:focus{
     background: #d63031;
-    color: #fff;
+    color:black;
     transition: background-color 1s ease-out;
     outline: 0;
 }
@@ -107,4 +107,12 @@ body{
         text-align: left;
     }
 
+}
+
+.img{
+    text-align: center;
+}
+.img2 {
+    width: 15%;
+    background-color: #000;
 }
