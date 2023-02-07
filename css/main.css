@@ -224,16 +224,6 @@ body {
     flex-direction: row;
   }
 }
-.main {
-  margin-top: 50px;
-  padding: 1.5rem 0;
-  background-color: antiquewhite;
-}
-
-.container1 {
-  margin: auto;
-}
-
 .section-cards__header {
   text-transform: uppercase;
   font-size: 1.5rem;
