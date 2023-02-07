@@ -179,15 +179,6 @@ body {
     text-align: left;
   }
 }
-.img {
-  text-align: center;
-}
-
-.img2 {
-  width: 15%;
-  background-color: #000;
-}
-
 .header {
   position: fixed;
   width: 100%;
