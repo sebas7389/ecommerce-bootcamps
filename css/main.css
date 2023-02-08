@@ -174,7 +174,7 @@ body {
     padding: 2rem;
   }
   .contact-info h4,
-.contact-info ul {
+  .contact-info ul {
     padding: 1em;
     text-align: left;
   }
@@ -344,11 +344,6 @@ body {
   color: rgb(29, 155, 240);
 }
 
-@media screen and (min-width: 600px) {
-  .footer {
-    flex-direction: row;
-  }
-}
 .main {
   margin-top: 50px;
   padding: 1.5rem 0;
