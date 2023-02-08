@@ -82,13 +82,16 @@ body{
     text-align: center;
     margin: 0 0 1rem 0;
 }
+
 .contact-info ul{
     list-style: none;
     padding: 0;
 }
 .contact-info ul li {
     padding: .3rem;
+    
 }
+
 @media (min-width: 700px){
 
     body {
@@ -108,3 +111,8 @@ body{
     }
 
 }
+.map {
+    width: 100%;
+
+}
+

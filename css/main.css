@@ -180,6 +180,7 @@ body {
     text-align: left;
   }
 }
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -257,6 +258,12 @@ input, textarea, select {
     margin-left: 15px;
   }
 }
+=======
+.map {
+  width: 100%;
+}
+
+>>>>>>> contact
 .header {
   position: fixed;
   width: 100%;
