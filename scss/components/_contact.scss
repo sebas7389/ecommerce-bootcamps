@@ -89,7 +89,9 @@ body{
 }
 .contact-info ul li {
     padding: .3rem;
+    
 }
+
 @media (min-width: 700px){
 
     body {
@@ -107,6 +109,10 @@ body{
         padding: 1em;
         text-align: left;
     }
+
+}
+.map {
+    width: 100%;
 
 }
 
