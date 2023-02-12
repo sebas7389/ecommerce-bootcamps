@@ -5,7 +5,7 @@ box-sizing: border-box;
 body{
     background-color: #181818;
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'roboto', sans-serif;
     padding: 0 1.5rem;
 }
 .content {
@@ -54,15 +54,12 @@ body{
     border: none;
     background-color: none;
     outline: 0;
-    color: #fff;
     border-bottom: 1px solid #d63031;
 
 }
 .contact-form form button{
     background: #b70e21;
     color:white;
-    border: 0;
-    text-transform: uppercase;
     padding: 1em;
 }
 
@@ -77,20 +74,19 @@ body{
 .contact-info {
     background-color: #000;
 }
-.contact-info h4,
-.contact-info ul {
+.info{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.contact-info ul{
+    list-style: none;
+    padding: 5px;
     text-align: center;
     margin: 0 0 1rem 0;
 }
 
-.contact-info ul{
-    list-style: none;
-    padding: 0;
-}
-.contact-info ul li {
-    padding: .3rem;
-    
-}
 
 @media (min-width: 700px){
 
