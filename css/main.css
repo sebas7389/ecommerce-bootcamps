@@ -70,6 +70,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar {
@@ -80,8 +81,11 @@ body {
   position: relative;
 }
 .navbar__logo {
-  height: 55px;
+  height: 45px;
   color: black;
+  background-color: white;
+  border-radius: 60%;
+  margin: 5px;
 }
 .navbar__menu-label {
   color: rgb(255, 255, 255);
@@ -171,7 +175,6 @@ body {
 }
 .user-navbar__cart-icon-container {
   color: white;
-  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -219,11 +222,6 @@ body {
   color: #0077b6;
 }
 
-@media screen and (min-width: 600px) {
-  .footer {
-    flex-direction: row;
-  }
-}
 .main {
   margin-top: 50px;
   padding: 1.5rem 0;
