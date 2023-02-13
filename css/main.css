@@ -25,13 +25,31 @@ body {
   font-family: "Inter", Arial, sans-serif;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
 .card {
   margin: 1rem;
   border: 1px solid red;
 }
 .card__header {
   height: 120px;
-  background-color: orange;
+  background-color: white;
 }
 .card__img {
   height: 120px;
@@ -42,7 +60,7 @@ body {
 .card__title {
   font-weight: 500;
   font-size: 1.5rem;
-  border-bottom: 2px solid orangered;
+  color: white;
 }
 .card__description {
   padding: 1.5rem 0 2rem;
@@ -219,30 +237,142 @@ body {
   color: #0077b6;
 }
 
-@media screen and (min-width: 600px) {
-  .footer {
-    flex-direction: row;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: black;
+}
+
+.contenido {
+  background-image: url(/assets/images/Razer\ portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  width: 100%;
+  position: relative;
+}
+
+.contenido h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.logo_r {
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.contenido::before {
+  position: absolute;
+  content: "";
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+}
+
+.slider {
+  width: 75vw;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: 4400px;
+  max-width: 1000px;
+  min-width: 400px;
+}
+
+.slider .slide {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translatex(0);
+  }
+  100% {
+    transform: translatex(-2200px);
   }
 }
-.section-cards__header {
-  text-transform: uppercase;
-  font-size: 1.5rem;
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  bottom: 100px;
+  right: 5px;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+  height: 60px;
+  width: 0px;
+  padding: 0 20px;
+  color: #000;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 1px solid #D50000;
+  transition: all 0.7s ease;
+}
+
+::-moz-placeholder {
+  color: grey;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  background: #D50000;
+  line-height: 80px;
+  border-radius: 50%;
   text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.section-cards__subtitle {
-  color: yellow;
-  font-size: 1rem;
+
+.btn i {
+  font-size: 25px;
+  color: white;
+  line-height: 80px;
+  transition: all 0.7s ease;
 }
-.section-cards__products-search-container {
-  padding: 1rem;
+
+.container:hover input {
+  width: 350px;
 }
-.section-cards .cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+.container:hover i {
+  transform: rotate(-360deg);
+}
+
+.btn:hover {
+  background: #cc0000;
 }
 
 @media screen and (min-width: 1000px) {
-  .section-cards__header {
+  .container__btn {
     display: flex;
   }
 }/*# sourceMappingURL=main.css.map */
