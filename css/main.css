@@ -85,6 +85,7 @@ body {
   color: white;
 }
 
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -321,6 +322,57 @@ body {
 }
 
 >>>>>>> acerca
+=======
+.footer {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer__column {
+  padding: 1rem;
+  margin: auto;
+}
+.footer__logo {
+  width: 100px;
+  border-radius: 50%;
+}
+.footer__company-name {
+  color: white;
+  font-size: 10px;
+}
+.footer__copyrigth {
+  color: white;
+  margin: 10px;
+}
+.footer__contact-item {
+  list-style: none;
+}
+.footer__contact-link {
+  color: white;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+.footer__contact-icon {
+  font-size: 1.75rem;
+}
+.footer__contact-icon--facebook {
+  color: #38529a;
+}
+.footer__contact-icon--instagram {
+  color: #f14d59;
+}
+.footer__contact-icon--linkedin {
+  color: #0077b6;
+}
+.footer__contact-icon--twitter {
+  color: rgb(29, 155, 240);
+}
+
+>>>>>>> FT-footer
 .header {
   position: fixed;
   width: 100%;
@@ -446,6 +498,7 @@ body {
     order: 3;
   }
 }
+<<<<<<< HEAD
 .footer {
   display: flex;
   flex-direction: column;
@@ -493,6 +546,8 @@ body {
 =======
 >>>>>>> FT-header-responsive
 
+=======
+>>>>>>> FT-footer
 .main {
   margin-top: 50px;
   padding: 1.5rem 0;

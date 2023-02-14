@@ -1,26 +1,30 @@
 .footer {
-    display: flex;
-    flex-direction: column;
     background-color: $color-dark-gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
     &__column {
-        padding: 1rem 1.5rem;
+        padding: 1rem;
+        margin: auto;
     }
     &__logo{
-        width: 30%;
+        width: 100px;
+        border-radius: 50%;
         
     }
     &__company-name{
         color: white;
+        font-size: 10px;
 
     }
     &__copyrigth{
         color: white;
+        margin: 10px;
     }
 
     &__contact-item {
         list-style: none;
         
-
     }
 
     &__contact-link {
@@ -28,6 +32,7 @@
         padding: .25rem;
         display: flex;
         align-items: center;
+        text-align: center;
         gap: .5rem;
         
 
@@ -54,6 +59,7 @@
 <<<<<<< HEAD
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 }
@@ -66,3 +72,5 @@
 =======
 }
 >>>>>>> main
+=======
+>>>>>>> FT-footer
