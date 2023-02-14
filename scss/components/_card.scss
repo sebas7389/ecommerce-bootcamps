@@ -1,13 +1,18 @@
 .card {
     margin: 1rem;
     border: 1px solid red;
+    background-color: black;
     &__header {
         height: 120px;
+<<<<<<< HEAD
         background-color:white;
+=======
+>>>>>>> FT-main-cards
     }
 
     &__img {
         height: 120px;
+        width: 100%;
     }
 
     &__body {
@@ -17,34 +22,43 @@
     &__title {
         font-weight: 500;
         font-size: 1.5rem;
+<<<<<<< HEAD
+=======
+        border-bottom: 2px solid orangered;
+>>>>>>> FT-main-cards
         color: white;
     }
 
     &__description {
         padding: 1.5rem 0 2rem;
+        color: white;
     }
 
     &__price {
-        font-weight: 500;
+        font-weight: 00;
         font-size: 1.5rem;
         color: $color-bg-primary;
     }
-
     &__footer {
         display: flex;
         justify-content: space-between;
         padding: 1rem;
     }
-
     &__date {
-        color: dodgerblue;
+        color:white;
     }
     &__btn {
         padding: 1rem 1.5rem;
-        background-color: dodgerblue;
+        background-color:red;
         color: white;
+<<<<<<< HEAD
     }
 }
 
+=======
+        border-radius: 15px;
+    }
+}
+>>>>>>> FT-main-cards
     
    
