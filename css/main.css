@@ -30,7 +30,6 @@ body {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 40px;
   right: 40px;
   background-color: #25d366;
   color: #fff;
@@ -51,10 +50,7 @@ body {
 }
 .card__header {
   height: 120px;
-<<<<<<< HEAD
   background-color: white;
-=======
->>>>>>> FT-main-cards
 }
 .card__img {
   height: 120px;
@@ -66,10 +62,7 @@ body {
 .card__title {
   font-weight: 500;
   font-size: 1.5rem;
-<<<<<<< HEAD
-=======
   border-bottom: 2px solid orangered;
->>>>>>> FT-main-cards
   color: white;
 }
 .card__description {
@@ -91,17 +84,10 @@ body {
 }
 .card__btn {
   padding: 1rem 1.5rem;
-<<<<<<< HEAD
-  background-color: dodgerblue;
-  color: white;
-=======
   background-color: red;
   color: white;
-  border-radius: 15px;
->>>>>>> FT-main-cards
 }
 
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -209,8 +195,10 @@ body {
     text-align: left;
   }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+.map {
+  width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -287,13 +275,6 @@ input, textarea, select {
     margin-left: 15px;
   }
 }
-=======
-.map {
-  width: 100%;
-}
-
->>>>>>> contact
-=======
 * {
   margin: 0;
   padding: 0;
@@ -337,8 +318,6 @@ body {
   text-decoration: underline;
 }
 
->>>>>>> acerca
-=======
 .footer {
   background-color: #222;
   display: flex;
@@ -388,7 +367,6 @@ body {
   color: rgb(29, 155, 240);
 }
 
->>>>>>> FT-footer
 .header {
   position: fixed;
   width: 100%;
@@ -407,7 +385,6 @@ body {
   height: 45px;
   color: black;
   background-color: white;
-  border-radius: 60%;
   margin: 5px;
 }
 .navbar__menu-label {
@@ -498,10 +475,6 @@ body {
 }
 .user-navbar__cart-icon-container {
   color: white;
-<<<<<<< HEAD
-=======
-  font-size: 1.5rem;
->>>>>>> FT-main-cards
 }
 
 @media screen and (min-width: 600px) {
@@ -518,77 +491,7 @@ body {
     order: 3;
   }
 }
-<<<<<<< HEAD
-.footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #222;
-}
-.footer__column {
-  padding: 1rem 1.5rem;
-}
-.footer__logo {
-  width: 30%;
-}
-.footer__company-name {
-  color: white;
-}
-.footer__copyrigth {
-  color: white;
-}
-.footer__contact-item {
-  list-style: none;
-}
-.footer__contact-link {
-  color: white;
-  padding: 0.25rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.footer__contact-icon {
-  font-size: 1.75rem;
-}
-.footer__contact-icon--facebook {
-  color: #38529a;
-}
-.footer__contact-icon--instagram {
-  color: #f14d59;
-}
-.footer__contact-icon--linkedin {
-  color: #0077b6;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-.footer__contact-icon--twitter {
-  color: rgb(29, 155, 240);
-}
-=======
->>>>>>> FT-header-responsive
-
-<<<<<<< HEAD
-=======
->>>>>>> FT-footer
-=======
->>>>>>> FT-main-cards
-.main {
-  margin-top: 50px;
-  padding: 1.5rem 0;
-  background-color: aliceblue;
-}
-
-.container1 {
-  margin: auto;
-  background-color: white;
-  width: 800px;
-  padding: 30px;
-}
-
-.ul, li {
-=======
-
 * {
->>>>>>> main
   margin: 0;
   padding: 0;
   box-sizing: border-box;
