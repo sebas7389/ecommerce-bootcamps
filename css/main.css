@@ -46,13 +46,18 @@ body {
 .card {
   margin: 1rem;
   border: 1px solid red;
+  background-color: black;
 }
 .card__header {
   height: 120px;
+<<<<<<< HEAD
   background-color: white;
+=======
+>>>>>>> FT-main-cards
 }
 .card__img {
   height: 120px;
+  width: 100%;
 }
 .card__body {
   padding: 1rem;
@@ -60,13 +65,18 @@ body {
 .card__title {
   font-weight: 500;
   font-size: 1.5rem;
+<<<<<<< HEAD
+=======
+  border-bottom: 2px solid orangered;
+>>>>>>> FT-main-cards
   color: white;
 }
 .card__description {
   padding: 1.5rem 0 2rem;
+  color: white;
 }
 .card__price {
-  font-weight: 500;
+  font-weight: 0;
   font-size: 1.5rem;
   color: red;
 }
@@ -76,10 +86,11 @@ body {
   padding: 1rem;
 }
 .card__date {
-  color: dodgerblue;
+  color: white;
 }
 .card__btn {
   padding: 1rem 1.5rem;
+<<<<<<< HEAD
   background-color: dodgerblue;
   color: white;
 }
@@ -243,6 +254,11 @@ body {
 .map {
   width: 100%;
 >>>>>>> contact
+=======
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+>>>>>>> FT-main-cards
 }
 
 .header {
@@ -355,6 +371,7 @@ body {
 .user-navbar__cart-icon-container {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: white;
 <<<<<<< HEAD
 =======
@@ -363,6 +380,9 @@ body {
 =======
   color: white;
 >>>>>>> contact
+=======
+  color: white;
+>>>>>>> FT-main-cards
   font-size: 1.5rem;
 =======
 >>>>>>> FT-header-responsive
@@ -416,6 +436,7 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -425,6 +446,8 @@ body {
 >>>>>>> FT-header-responsive
 =======
 >>>>>>> contact
+=======
+>>>>>>> FT-main-cards
 .main {
   margin-top: 50px;
   padding: 1.5rem 0;
